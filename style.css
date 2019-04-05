@@ -389,6 +389,15 @@ h3{
     top: 51vw;
     left: 33vw;
 }
+.profThi{
+    margin: 1vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    position: absolute;
+    top: 51vw;
+    left: 36vw;
+}
 .backB{
 	position: absolute;
 	width:5vw;
