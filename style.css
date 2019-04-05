@@ -319,6 +319,10 @@ h3{
 	z-index: 15;
 	display: none;
 }
+
+.sms{
+	font-size:2.2vw;
+}
 .yoko{
 	width:60vw;
 }
@@ -366,6 +370,24 @@ h3{
     position: absolute;
     top: 51vw;
     left: 3vw;
+}
+.profMini{
+    margin: 1vw;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 31vw;
+    left: 29vw;
+}
+.profKim{
+    margin: 1vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    position: absolute;
+    top: 51vw;
+    left: 33vw;
 }
 .backB{
 	position: absolute;
@@ -428,6 +450,34 @@ hr{
 .bata1{display:none;}
 .nih1{display:none;}
 .sin1{display:none;}
+.bura1{display:none;}
+.joy1{display:none;}
+
+
+.ouk1{display:none;}
+.shako1{display:none;}
+.yubi1{display:none;}
+.mon1{display:none;}
+.mika1{display:none;}
+.jan1{display:none;}
+.pa1{display:none;}
+.rubi1{display:none;}
+.eno1{display:none;}
+.ahu1{display:none;}
+.sara1{display:none;}
+.rin1{display:none;}
+.sisa1{display:none;}
+.oga1{display:none;}
+.rob1{display:none;}
+.asi1{display:none;}
+.mini1{display:none;}
+.esu1{display:none;}
+.non1{display:none;}
+.thi1{display:none;}
+.hosi1{display:none;}
+.swa1{display:none;}
+.muu1{display:none;}
+
 .omM{
 	display: none;
 }
@@ -436,6 +486,36 @@ hr{
 }
 .omO{
 	display: none;
+}
+
+
+
+
+
+
+.movieBox{
+	width: 100vw;
+	height:120vh;
+	background-color:#665F3A;
+	opacity: 0.7;
+	display: none;
+}
+.coming{
+	text-align: center;
+	width:70vw;
+	margin:0vw 15vw 0vw 15vw;
+	padding-top: 60vw;
+	
+}
+.cs{
+	text-align: center;
+	width:70vw;
+	margin:0vw 15vw 40vw 15vw;
+	padding-top: 10vw;
+	font-size: 9vw;
+	color: white;
+	font-family:'Comic Sans MS';
+	opacity: 0.6;
 }
 
 footer{
