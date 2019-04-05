@@ -580,6 +580,13 @@ $(function(){
         {height: "toggle", opacity: "toggle"},"slow","swing"
       );
   });
+  $('.ame').on('touchstart',function () {
+  	$('.ame1').show();
+  	$('.modal').fadeIn(200);
+  	$(".window").animate(
+        {height: "toggle", opacity: "toggle"},"slow","swing"
+      );
+  });
 
 
   $('.ouk').on('touchstart',function () {
@@ -802,6 +809,7 @@ $(function(){
   	$('.sin1').hide();
   	$('.joy1').hide();
   	$('.bura1').hide();
+  	$('.ame1').hide();
 
 
   	$('.ouk1').hide();
