@@ -55,7 +55,7 @@ $(function(){
     $('.oritorBox').hide();
 
     $(".movieBox").animate(
-        {height: "toggle", opacity: "toggle"},3000,"swing"
+        {height: "toggle", opacity: "toggle"},2000,"swing"
       );
   });
 
