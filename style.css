@@ -528,6 +528,13 @@ hr{
 	opacity: 0.6;
 }
 
+
+iframe{
+	width:90vw;
+	height:50vw;
+	margin:40vw 5vw 40vw 5vw;
+
+}
 footer{
 	width:100vw;
 	height:12vw;
