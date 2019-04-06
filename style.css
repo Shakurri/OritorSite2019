@@ -521,9 +521,8 @@ hr{
 	text-align: center;
 	width:70vw;
 	margin:0vw 15vw 40vw 15vw;
-	padding-top: 10vw;
-	font-size: 9vw;
-	color: white;
+	font-size: 3vw;
+	color:#c9bb73;
 	font-family:'Comic Sans MS';
 	opacity: 0.6;
 }
@@ -532,7 +531,8 @@ hr{
 iframe{
 	width:90vw;
 	height:50vw;
-	margin:40vw 5vw 40vw 5vw;
+	margin:50vw 4vw 4vw 5vw;
+	border: inset 1vw #c9bb73;
 
 }
 footer{
