@@ -848,7 +848,7 @@ $(function(){
 
 
 $(window).on('load',function () {
-    $('.mainIcon').fadeIn(1000);
+    $('.mainIcon').fadeIn(500);
   });
 
 
