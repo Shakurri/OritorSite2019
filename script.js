@@ -9,6 +9,9 @@ $(function(){
     $('.textBox').hide();
 
     $('.oritorBox').hide();
+    $('.omM').css('opacity','0.01');
+    $('.omN').css('opacity','0.01');
+    $('.omO').css('opacity','0.01');
 
     $('.movieBox').hide();
   });
@@ -23,6 +26,9 @@ $(function(){
     $('.mainIcon').fadeOut(500);
 
     $('.oritorBox').hide();
+    $('.omM').css('opacity','0.01');
+    $('.omN').css('opacity','0.01');
+    $('.omO').css('opacity','0.01');
 
     $('.movieBox').hide();
   });
@@ -36,6 +42,7 @@ $(function(){
     $('.textBox').hide();
 
     $('.oritorBox').show();
+    $('.oritorBox').css('opacity','0.01');
     $('.omM').css('opacity','0.01');
     $('.omM').fadeTo(2000,1.0);
     $('.omN').css('opacity','0.01');
@@ -53,9 +60,12 @@ $(function(){
     $('.textBox').hide();
 
     $('.oritorBox').hide();
+    $('.omM').css('opacity','0.01');
+    $('.omN').css('opacity','0.01');
+    $('.omO').css('opacity','0.01');
 
     $(".movieBox").animate(
-        {height: "toggle", opacity: "toggle"},2000,"swing"
+        {height: "show",opacity: "show"},2000,"swing"
       );
   });
 
