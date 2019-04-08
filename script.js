@@ -760,6 +760,20 @@ $(function(){
         {height: "toggle", opacity: "toggle"},"slow","swing"
       );
   });
+  $('.pasu').on('touchstart',function () {
+  	$('.pasu1').show();
+  	$('.modal').fadeIn(200);
+  	$(".window").animate(
+        {height: "toggle", opacity: "toggle"},"slow","swing"
+      );
+  });
+  $('.bosa').on('touchstart',function () {
+  	$('.bosa1').show();
+  	$('.modal').fadeIn(200);
+  	$(".window").animate(
+        {height: "toggle", opacity: "toggle"},"slow","swing"
+      );
+  });
 
 
 
@@ -845,6 +859,8 @@ $(function(){
   	$('.hosi1').hide();
   	$('.swa1').hide();
   	$('.muu1').hide();
+  	$('.bosa1').hide();
+  	$('.pasu1').hide();
   });
 });
 
